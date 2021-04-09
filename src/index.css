@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.TodoApp {
+    margin: 20px;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.TodoApp-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.TodoApp-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Ajou button {
+    background-color: cornflowerblue;
+    border: thin solid dodgerblue;
+    /* border-radius: 0.125rem; */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.TodoApp .button-icon {
+    vertical-align: top;
+    margin: 0 0.2rem;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-family: apple color emoji, segoe ui emoji, noto color emoji, android emoji, emojisymbols, emojione mozilla, twemoji mozilla, segoe ui symbol;
+    font-size: 0.9rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.TodoApp .button-icon:hover {
+    text-decoration: none;
+}
+
+.TodoApp ul li .button-icon {
+    font-size: 0.9rem;
+    visibility: hidden;
+}
+
+.TodoApp ul li:hover .button-icon {
+    font-size: 0.9rem;
+    visibility: visible;
+}
+
+.TodoApp {
+    background-color: #f1f1f1;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.Ajou {
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ecritureee {
+    font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+}
